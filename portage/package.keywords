@@ -1,0 +1,12 @@
+sys-apps/portage ~*
+
+www-misc/zoneminder
+dev-perl/PHP-Serialization
+virtual/perl-Module-Load
+
+net-wireless/rtl8180
+net-wireless/wireless-tools
+=sys-kernel/gentoo-sources-2.6.37
+=x11-drivers/ati-drivers-8.593
+app-admin/webmin
+net-misc/openssh

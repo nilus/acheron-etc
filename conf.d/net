@@ -1,0 +1,27 @@
+# This blank configuration will automatically use DHCP for any net.*
+# scripts in /etc/init.d.  To create a more complete configuration,
+# please review /etc/conf.d/net.example and save your configuration
+# in /etc/conf.d/net (this file :]!).
+
+config_eth1=( "dhcp" )
+#mac_eth1="00:21:00:71:b3:a1"	# e1	10	10.181.234.209
+#mac_eth1="00:18:f3:ea:43:7b"	# e2	15	10.181.236.117
+#mac_eth1="00:21:27:c4:bc:70"	# e10
+#mac_eth1="00:30:4f:69:1a:10"	# e13	25	10.181.252.194
+#mac_eth1="00:0c:76:5d:8a:fa"	# e16	?
+#mac_eth1="bc:ae:c5:c7:5b:65"	# 	25	10.181.233.170
+#mac_eth1="00:1a:92:83:36:f6"	# e19	15 	10.181.235.233
+#mac_eth1="b8:70:f4:72:ce:de"	# e23		10.181.238.60
+
+config_eth2=( "10.1.0.1 broadcast 10.1.0.255 netmask 255.255.255.0" 
+		"2002:5d5c:ced2:1::1/64" )
+
+
+mode_wlan1="ad-hoc"
+essid_wlan1="NilusWiFi"
+channel_wlan1="1"
+key_NilusWiFi="s:12345"
+config_wlan1=( "10.2.0.1 broadcast 10.2.0.255 netmask 255.255.255.0" )
+
+config_sit0=( "2002:5d5c:ced2::0930:9220:6210/48" )
+routes_sit0=( "2000::/3 -A inet6 gw ::192.88.99.1 dev sit1" )

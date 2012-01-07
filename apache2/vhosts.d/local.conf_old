@@ -1,0 +1,52 @@
+Listen 80
+
+# Use name-based virtual hosting.
+NameVirtualHost *
+
+
+<VirtualHost *>
+        #ServerAdmin webmaster@localhost
+        ServerName localhost
+	ServerAlias nilus.net.ru
+	ServerAlias www.nilus.net.ru
+
+        DocumentRoot /var/www/localhost/htdocs
+        <Directory />
+                Options FollowSymLinks
+                AllowOverride All
+        </Directory>
+        <Directory /var/www/localhost/htdocs>
+                # Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                Allow from all
+        </Directory>
+
+#       ScriptAlias /cgi-bin/ /home/www/telbase.net.ru/cgi-bin/
+#        <Directory "/home/www/telbase.net.ru/cgi-bin">
+#                AllowOverride None
+#                Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+#                Order allow,deny
+#                Allow from all
+#        </Directory>
+
+        ErrorLog /var/log/apache2/error.log
+
+        # Possible values include: debug, info, notice, warn, error, crit,
+        # alert, emerg.
+        LogLevel warn
+
+        CustomLog /var/log/apache2/access.log combined
+        ServerSignature On
+
+    Alias /doc/ "/usr/share/doc/"
+    <Directory "/usr/share/doc/">
+#        Options Indexes MultiViews FollowSymLinks
+        AllowOverride None
+        Order deny,allow
+        Deny from all
+        Allow from 127.0.0.0/255.0.0.0 ::1/128
+    </Directory>
+
+</VirtualHost>
+

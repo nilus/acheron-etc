@@ -1,0 +1,36 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/bin/false
+daemon:x:2:2:daemon:/sbin:/bin/false
+adm:x:3:4:adm:/var/adm:/bin/false
+lp:x:4:7:lp:/var/spool/lpd:/bin/false
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/bin/false
+news:x:9:13:news:/usr/lib/news:/bin/false
+uucp:x:10:14:uucp:/var/spool/uucppublic:/bin/false
+operator:x:11:0:operator:/root:/bin/bash
+man:x:13:15:man:/usr/share/man:/bin/false
+postmaster:x:14:12:postmaster:/var/spool/mail:/bin/false
+smmsp:x:209:209:smmsp:/var/spool/mqueue:/bin/false
+portage:x:250:250:portage:/var/tmp/portage:/bin/false
+nobody:x:65534:65534:nobody:/:/bin/false
+sshd:x:22:22:added by portage for openssh:/var/empty:/sbin/nologin
+distcc:x:240:2:added by portage for distcc:/dev/null:/sbin/nologin
+messagebus:x:101:1000:added by portage for dbus:/dev/null:/sbin/nologin
+ldap:x:439:439:added by portage for openldap:/usr/lib/openldap:/sbin/nologin
+mysql:x:60:60:added by portage for mysql:/dev/null:/sbin/nologin
+apache:x:81:81:added by portage for apache:/var/www:/sbin/nologin
+tcpdump:x:102:1002:added by portage for tcpdump:/dev/null:/sbin/nologin
+tracd:x:103:1003:added by portage for trac:/dev/null:/sbin/nologin
+nilus:x:1000:1005::/home/nilus:/bin/bash
+ftp:x:21:21:added by portage for ftpbase:/home/ftp:/sbin/nologin
+proftpd:x:104:1006:added by portage for proftpd:/dev/null:/sbin/nologin
+cron:x:16:16:added by portage for cronbase:/var/spool/cron:/sbin/nologin
+radvd:x:105:1008:added by portage for radvd:/dev/null:/sbin/nologin
+ntp:x:123:123:added by portage for ntp:/dev/null:/sbin/nologin
+rpc:x:111:111:added by portage for portmap:/dev/null:/sbin/nologin
+named:x:40:40:added by portage for bind:/etc/bind:/sbin/nologin
+files:x:1001:1009::/home/files:/bin/bash
+munin:x:177:440:added by portage for munin:/var/lib/munin:/sbin/nologin
+dhcp:x:106:441:added by portage for dhcp:/var/lib/dhcp:/sbin/nologin

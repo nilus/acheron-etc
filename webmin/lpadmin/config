@@ -1,0 +1,15 @@
+gs_path=gs
+show_status=0
+iface_perms=755
+gs_fontpath=
+show_jobs=0
+gs_lib=
+display_mode=0
+smbclient_path=smbclient
+spool_dir=/var/spool/lpd
+iface_owner=lp:lp
+iface_arg=
+driver_style=cups
+print_style=cups
+sort_mode=0
+model_path=/usr/share/cups/model

@@ -1,0 +1,4 @@
+modules=core/2.211 prefork/2.211 mod_actions/2.211 mod_alias/2.211 mod_auth_basic/2.211 mod_authn_dbm/2.211 mod_authn_file/2.211 mod_authz_dbm/2.211 mod_authz_groupfile/2.211 mod_authz_host/2.211 mod_authz_owner/2.211 mod_autoindex/2.211 mod_cgi/2.211 mod_dir/2.211 mod_env/2.211 mod_ext_filter/2.211 mod_include/2.211 mod_log_config/2.211 mod_mime/2.211 mod_mime_magic/2.211 mod_negotiation/2.211 mod_rewrite/2.211 mod_setenvif/2.211 mod_speling/2.211 mod_vhost_alias/2.211
+webmin=1.500
+path=/usr/sbin/apache2
+size=344936

@@ -1,0 +1,6 @@
+smbclient_path=smbclient
+fstab_file=/etc/fstab
+show_used=1
+autofs_file=/etc/autofs/auto.master
+nmblookup_path=nmblookup
+long_fstypes=1

@@ -1,0 +1,33 @@
+match system.firmware.version compare_eq 6.00 PG
+match system.firmware.vendor compare_eq Award Software International, Inc.
+match system.firmware.release_date compare_eq 12/04/2002
+match system.hardware.vendor compare_eq 
+match system.hardware.product compare_eq 
+match system.hardware.version compare_eq 
+match system.board.product compare_eq GA-8SR533P
+match system.board.version compare_eq 1.x
+match system.board.vendor compare_eq Gigabyte Technology Co., Ltd.
+match system.hardware.primary_video.vendor compare_eq 0x10de
+match system.hardware.primary_video.product compare_eq 0x0110
+match system.hardware.primary_video.driver compare_eq 
+match system.hardware.primary_video.using_kms compare_eq false
+match system.kernel.version compare_eq 2.6.35-gentoo-r10
+addquirk --quirk-vbe-post
+addquirk --quirk-dpms-on
+addquirk --quirk-dpms-suspend
+addquirk --quirk-vbestate-restore
+addquirk --quirk-vbemode-restore
+addquirk --quirk-vga-mode-3
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch
+endmatch

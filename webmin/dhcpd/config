@@ -1,0 +1,15 @@
+start_cmd=/etc/init.d/dhcp start
+lease_file=/var/lib/dhcp/dhcpd.leases
+dhcpd_path=/usr/sbin/dhcpd
+display_max=100
+group_name=0
+lease_tz=0
+lease_sort=0
+interfaces_type=gentoo
+show_mac=0
+stop_cmd=/etc/init.d/dhcp stop
+dhcpd_conf=/etc/dhcp/dhcpd.conf
+pid_file=/var/run/dhcpd.pid
+desc_name=0
+show_ip=0
+dhcpd_nocols=5

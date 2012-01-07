@@ -1,0 +1,11 @@
+net-analyzer/rrdtool perl
+>=sys-auth/pambase-20090430 consolekit -gnome-keyring
+sys-devel/distcc -gnome
+app-crypt/pinentry gtk
+www-client/links -X bzip2 gpm jpeg png -sdl ssl tiff unicode zlib fbcon
+net-dns/dnsmasq
+sys-apps/dbus -X
+dev-lang/php curl json gd ctype mysql sockets apache2
+www-apps/trac subversion
+dev-vcs/subversion -berkdb
+www-apps/viewvc vhosts

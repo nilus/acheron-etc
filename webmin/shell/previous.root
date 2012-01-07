@@ -1,0 +1,124 @@
+eix openssh
+/etc/init.d/sshd restart
+qfile libssl.so.0.9.8
+emerge -av1 dev-libs/openssl
+emerge -1 dev-libs/openssl
+/etc/init.d/sshd restart
+eix openssh
+emerge -1 net-misc/openssh
+echo net-misc/openssh >> /etc/portage/package.keywords
+eix openssh
+emerge -1 net-misc/openssh
+cd /usr/portage
+cd distfiles
+ls
+wget http://mirror.yandex.ru/gentoo-distfiles/distfiles/openssh-5.7p1.tar.gz
+cd /usr/lib
+ln -s libssl.so.1.0.0 libssl.so.0.9.8
+emerge -1 net-misc/openssh
+wget
+pwd
+ln -s libcrypto.so.1.0.0 libcrypto.so.0.9.8
+wget
+/etc/init.d/sshd restart
+emerge -1 net-misc/openssh
+зцв
+emerge -1 net-misc/openssh
+cd /usr/portage
+cd distfiles
+wget http://mirror.yandex.ru/gentoo-distfiles/distfiles/openssh-5.7p1.tar.gz
+emerge -1 net-misc/openssh
+emerge
+emerge --help
+/etc/init.d/sshd restart
+cd /usr/lib
+cd ~
+wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+tar http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+tar libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+tar -xvf  libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+tar -xvzf  libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+tar -xvjf  libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+deb2tar
+debtar
+ar -p libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb data.tar.gz | tar zx -C dir
+ls
+pwd
+cd ~
+cd /root
+mv /usr/lib/libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb .
+ls
+ar -p libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb data.tar.gz
+ls
+ar -p libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb data.tar.gz > data.tar.gz
+ls
+tar -xvf data.tar.gz 
+ls
+cd lib
+ls
+cp * /usr/lib
+/etc/init.d/sshd restart
+cd ..
+ls
+rm lib
+rm libssl0.9.8_0.9.8o-1ubuntu4.3_amd64.deb
+rm data.tar.gz
+wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl0.9.8_0.9.8o-1ubuntu4.3_i386.deb
+rm /usr/lib/libcrypto.so.0.9.8
+rm /usr/lib/libssl.so.0.9.8
+ln -s /usr/lib/libcrypto.so.1.0.0 /usr/lib/libcrypto.so.0.9.8
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl0.9.8_0.9.8o-1ubuntu4.3_i386.deb
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+rm /usr/lib/libssl.so.0.9.8
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl0.9.8_0.9.8o-1ubuntu4.3_i386.deb
+ln -la /usr/lib/libssl.so.0.9.8
+ls -la /usr/lib/libssl.so.0.9.8
+wget
+ldd /usr/lib/libssl.so.1.0.0
+ldd /usr/lib/libssl.so.1.0.0
+ld /usr/lib/libssl.so.1.0.0
+wget
+rm /usr/lib/libssl.so.0.9.8
+wget
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+wget
+ls
+wget
+ls -la /usr/lib/libssl.so.0.9.8
+ls -la /usr/lib/libssl.so.0.9.8
+wget
+links
+emerge
+eix openssl
+emerge -1 dev-libs/openssl:0.9.8
+qfile libssl.so.0.9.8
+pwd
+ls
+cd lib
+ls
+rm /usr/lib/libssl.so.0.9.8
+rm /usr/lib/libcrypto.so.0.9.8
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+wget
+emerge -1 net-misc/openssl
+emerge -1 openssl
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+wget
+rm /usr/lib/libssl.so.0.9.8
+rm /usr/lib/libcrypto.so.0.9.8
+ln -s /usr/lib/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
+wget
+ln -s /usr/lib/libcrypto.so.1.0.0 /usr/lib/libcrypto.so.0.9.8
+wget
+pwd
+cd ..
+wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl0.9.8_0.9.8o-1ubuntu4.3_i386.deb
+ar -p libssl0.9.8_0.9.8o-1ubuntu4.3_i386.deb data.tar.gz > data.tar.gz
+rm lib -r
+tar -xvf data.tar.gz
+cp ./lib/libssl.so.0.9.8 /usr/lib
+cp ./lib/libcrypto.so.0.9.8 /usr/lib
+wget
+/etc/init.d/sshd restart

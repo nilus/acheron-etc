@@ -1,0 +1,6 @@
+jabber_daemon=/usr/sbin/jabberd
+start_cmd=/etc/init.d/jabber start
+jabber_lib=/usr/lib/jabberd
+jabber_config=/etc/jabber/multiple.xml
+jabber_dir=/usr/lib/jabberd
+stop_cmd=/etc/init.d/jabber stop
